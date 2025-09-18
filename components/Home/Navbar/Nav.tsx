@@ -2,7 +2,15 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <div>
+      <div>
+        {/* LOGO */}
+        <div>
+          <div></div>
+          <h1 className='text-xl hidden'>Agency Management</h1>
+        </div>
+      </div>
+    </div>
   )
 }
 
