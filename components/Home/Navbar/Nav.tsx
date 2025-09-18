@@ -7,7 +7,7 @@ const Nav = () => {
       <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
         {/* LOGO */}
         <div className='flex items-center space-x-2'>
-          <div>
+          <div className='w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center flex-col'>
             <GrTechnology className='h-6 w-6 text-white'/>
           </div>
           <h1 className='text-xl hidden'>Agency Management</h1>
