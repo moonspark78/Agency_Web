@@ -12,6 +12,8 @@ const Nav = () => {
           </div>
           <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>Agency Management</h1>
         </div>
+        {/* NavLinks */}
+        
       </div>
     </div>
   )
