@@ -17,7 +17,12 @@ const Nav = () => {
         {/* NavLinks */}
         <div className='hidden lg:flex items-center space-x-10'>
           {NavLinks.map((link) => {
-            return <Link href={link.url} key={link.id} className='text-white text-lg hover:text-pink-300'></Link>
+            return <Link 
+            href={link.url} 
+            key={link.id} 
+            className='text-white text-lg hover:text-pink-300 font-semibold transition-all duration-200'>
+
+            </Link>
           })}
         </div>
       </div>
