@@ -21,7 +21,7 @@ const Nav = () => {
             href={link.url} 
             key={link.id} 
             className='text-white text-lg hover:text-pink-300 font-semibold transition-all duration-200'>
-
+              <p>{link.label}</p>
             </Link>
           })}
         </div>
