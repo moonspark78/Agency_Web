@@ -1,3 +1,5 @@
+import { NavLinks } from '@/constant/constant'
+import Link from 'next/link'
 import React from 'react'
 import { GrTechnology } from 'react-icons/gr'
 
@@ -14,7 +16,9 @@ const Nav = () => {
         </div>
         {/* NavLinks */}
         <div className='hidden lg:flex items-center space-x-10'>
-          {}
+          {NavLinks.map((link) => {
+            return <Link href={link.url} key={link.id} className='text-white text-lg'></Link>
+          })}
         </div>
       </div>
     </div>
