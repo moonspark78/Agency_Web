@@ -25,6 +25,10 @@ const Nav = () => {
             </Link>
           })}
         </div>
+        {/* Button */}
+        <div className='flex items-center space-x-4'>
+          {/* 1st button create account button */}
+        </div>
       </div>
     </div>
   )
