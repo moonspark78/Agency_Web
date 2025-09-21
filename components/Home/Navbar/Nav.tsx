@@ -28,6 +28,9 @@ const Nav = () => {
         {/* Button */}
         <div className='flex items-center space-x-4'>
           {/* 1st button create account button */}
+            <a href="#" className='px-5 py-2.5 relative rounded group font-medium text-white inline-block'>
+
+            </a>
         </div>
       </div>
     </div>
