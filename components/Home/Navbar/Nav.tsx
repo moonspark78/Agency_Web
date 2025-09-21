@@ -38,6 +38,7 @@ const Nav = () => {
               from-purple-600 to-blue-500'></span>
               <span className='absolute inset-0 w-full h-full transition duration-200 ease-out rounded
               bg-gradient-to-br to-purple-600 from-blue-500'></span>
+              <span className='relative'>Create Account</span>
             </a>
         </div>
       </div>
